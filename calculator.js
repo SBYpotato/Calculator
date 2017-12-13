@@ -4,6 +4,13 @@ function d(val) {
 	document.getElementById("d").value = val;
 }
 
+function night() {
+	document.body.style.backgroundColor= "black";
+}
+
+function day() {
+	document.body.style.backgroundColor = "white";
+}
 
 //Type numbers and operators
 function v(val) {
