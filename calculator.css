@@ -1,6 +1,5 @@
 @charset "UTF-8";
 /* CSS Document */
-/* MOAR */
 
 /* Calculator Box */
 .box {
@@ -63,12 +62,6 @@
 .button.number {
 	color: white;
 	background-color: #B5E9F6;
-	border-bottom: black 2px solid;
-	border-top: 2px #6f6f6f solid;
-}
-.night {
-	color: white;
-	background-color: orange;
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
 }
