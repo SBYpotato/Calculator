@@ -5,7 +5,7 @@ function d(val) {
 }
 
 //Buttons for Modes
-function night() {
+function night("night") {
 	document.body.style.backgroundColor= "black";
 	
 }
