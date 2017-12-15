@@ -26,6 +26,7 @@ function day() {
 		document.getElementById("1a").style.backgroundColor="red";
 		document.getElementById("1b").style.backgroundColor="red";
 		document.getElementById("1c").style.backgroundColor="red";
+		document.getElementById("1d").style.backgroundColor="red";
 			document.getElementById("2").style.backgroundColor="green";
 			document.getElementById("2a").style.backgroundColor="green";
 			document.getElementById("2b").style.backgroundColor="green";
@@ -41,6 +42,7 @@ function night() {
 		document.getElementById("1a").style.backgroundColor="orange";
 		document.getElementById("1b").style.backgroundColor="orange";
 		document.getElementById("1c").style.backgroundColor="orange";
+		document.getElementById("1d").style.backgroundColor="orange";
 			document.getElementById("2").style.backgroundColor="grey";
 			document.getElementById("2a").style.backgroundColor="grey";
 			document.getElementById("2b").style.backgroundColor="grey";
