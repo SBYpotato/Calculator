@@ -3,7 +3,7 @@
 
 /* Calculator Box */
 .box {
-	background-color: #e5e7ea;
+	background-image: url("imagesCalculator/dedd.jpg");
 	height: 300px;
 	width: 250px;
 	border-radius: 10px;
@@ -23,6 +23,7 @@
 }
 .display input {
 	position: relative;
+	background-image: url("imagesCalculator/deddd.jpg");
 	left: 2px;
 	top: 2px;
 	height: 30px;
@@ -80,20 +81,7 @@
 	border-bottom: 2px #6f6f6f solid;
 }
 
-
-/* Night Mode
-.button.function {
-	background-color: orange;
-	color: white;	
-}
-
-.button.number {
-	background-color: grey;
-	color: white;	
-}
-
-.button.operator {
+body {
 	background-color: black;
-	color: white;
+	background-image: url("imagesCalculator/ded.gif");
 }
-*/
