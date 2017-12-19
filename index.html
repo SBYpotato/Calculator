@@ -7,6 +7,8 @@
 <link rel="stylesheet" type="text/css" href="calculator.css">
 <!--JavaScript-->
 <script type="text/javascript" src="calculator.js"></script>
+<!--Random HTML file-->
+<link rel="htmlstuff" type="text/html" href="calculator2.html">
 </head>
 
 <body>
@@ -15,38 +17,41 @@
 		<div class="display"><input type="text" readonly size="18" id="d"> </div>
 		<div class="keys">
 		<p>
-			<input type="button" class="button function" value="mrc" onclick="alert('Not yet implemented')">
-			<input type="button" class="button function" value="m-" onclick="alert('Not yet implemented')">
-			<input type="button" class="button function" value="m+" onclick="alert('Not yet implemented')">
-			<input type="button" class="button operator" value="/" onclick="v('/')">
+			<input id="1" type="button" class="button function" value="π" onclick="v('3.14')">
+			<input id="1a" type="button" class="button function" value="(" onclick="v('(')">
+			<input id="1b" type="button" class="button function" value=")" onclick="v(')')">
+			<input id="2" type="button" class="button operator" value="/" onclick="v('/')">
 		</p>
 		<p>
 			<input type="button" class="button number" value="7" onClick="v('7')">
 			<input type="button" class="button number" value="8" onClick="v('8')">
 			<input type="button" class="button number" value="9" onClick="v('9')">	
-			<input type="button" class="button operator" value="*" onClick="v('*')">
+			<input id="2a" type="button" class="button operator" value="*" onClick="v('*')">
 		</p>	
 		<p>
 			<input type="button" class="button number" value="4" onClick="v('4')">
 			<input type="button" class="button number" value="5" onClick="v('5')">
 			<input type="button" class="button number" value="6" onClick="v('6')">
-			<input type="button" class="button operator" value="-" onClick="v('-')">
+			<input id="2b" type="button" class="button operator" value="-" onClick="v('-')">
 			</p>
 			<p>
 			<input type="button" class="button number" value="1" onClick="v('1')">
 			<input type="button" class="button number" value="2" onClick="v('2')">
 			<input type="button" class="button number" value="3" onClick="v('3')">
-			<input type="button" class="button operator" value="+" onClick="v('+')">
+			<input id="2c" type="button" class="button operator" value="+" onClick="v('+')">
 		</p>
 		<p>
+			<input id="1d" type="button" class="button number" value="." onClick="v('.')">
 			<input type="button" class="button number" value="0" onClick="v('0')">
-			<input type="button" class="button number" value="." onClick="v('.')">
-			<input type="button" class="button function" value="C" 
-			onClick="d( ' ' )">	
-			<input type="button" class="button operator" value="=" onClick="e( )">
+			<input id="1c" type="button" class="button function" value="C" onClick="d( ' ' )">	
+			<input id="2d" type="button" class="button operator" value="=" onClick="e( )">
 			</p>
 		</div>
 	</div>
+	<!-- Failed Project -->
+	<button type="button" onClick="night()">Night Mode </button> <br>
+	<button type="button" onClick="day()">Day Mode</button>
+
 </body>
 </html>
 		

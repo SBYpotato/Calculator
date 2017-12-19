@@ -1,8 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
+
 /* Calculator Box */
 .box {
-	background-color: #e5e7ea;
+	background-image: url("imagesCalculator/dedd.jpg");
 	height: 300px;
 	width: 250px;
 	border-radius: 10px;
@@ -22,12 +23,13 @@
 }
 .display input {
 	position: relative;
+	background-image: url("imagesCalculator/deddd.jpg");
 	left: 2px;
 	top: 2px;
 	height: 30px;
 	width: 210px;
 	color: black;
-	background-color: #bccd95;
+	background-color: #fffffff;
 	font-size: 21px;
 	text-align: right;
 }
@@ -48,19 +50,19 @@
 }
 .button.function {
 	color: white;
-	background-color: #c64f81;
+	background-color: #FA1E21;
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
 }
 .button.operator {
 	color: white;
-	background-color: #4d5966;
+	background-color: #22A71F;
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
 }
 .button.number {
 	color: white;
-	background-color: #7091ab;
+	background-color: #B5E9F6;
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
 }
@@ -79,3 +81,7 @@
 	border-bottom: 2px #6f6f6f solid;
 }
 
+body {
+	background-color: black;
+	background-image: url("imagesCalculator/ded.gif");
+}
